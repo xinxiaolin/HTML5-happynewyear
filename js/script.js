@@ -42,7 +42,7 @@ window.onload = function() {
             page3.style.top = "100%";
             page2.setAttribute("class", "page fadeOut");
             page3.setAttribute("class", "page fadeIn");
-        }, 5500)
+        }, 6500)
     }, false)
 
     //手指滑动切换页面--第一页
