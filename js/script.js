@@ -11,10 +11,7 @@ window.onload = function() {
     // 音乐播放完毕时，动画停止
     audio.addEventListener("ended", function(event) {
         music.setAttribute("class", "");
-        if (audio.paused) {
-            audio.play();
-            music.setAttribute("class", "play");
-        } 
+        
         // this.style.animationPlayState = "paused";
         // this.style.webkitAnimationPlayState = "paused";
     }, false)
@@ -30,8 +27,12 @@ window.onload = function() {
         }
     }, false);
 
-    // 点击屏幕，开启好运2016
+    // 点击屏幕，开启好运2018
     lantern.addEventListener("click", function() {
+        if (audio.paused) {
+            audio.play();
+            music.setAttribute("class", "play");
+        } 
         page1.style.display = "none";
         page2.setAttribute("class", "page");
         page2.style.display = "block";
