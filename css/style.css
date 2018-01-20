@@ -230,6 +230,26 @@ body {
     }
 }
 
+#page2>.p2-words {
+    font-size: 3.678rem;
+    position: absolute;
+    top: 11.5217vh;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+
+#page2>.p2-words2 {
+    font-size: 3.678rem;
+    position: absolute;
+    right: 0;
+    bottom: 11.5217vh;
+    left: 0;
+    text-align: center;
+    color: #fff;
+}
+
 #page2>.p2-circle {
     position: absolute;
     top: 0;
